@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+}
+
+.primeira-caixa{
+  height: 100vh;
+  width: 100vh;
+  background-image: url();
+  background-color: black;
+  
+}
+
+nav{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+h2{
+  color: rgb(192, 207, 207);
+}
+li{
+  color: aliceblue;
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.meu-nome{
+
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+h1{
+  color: azure;
+  font-size: 80px;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black ;
+  
+
+
+}
+section img {
+  width: 400px;
+  height: 400px;
+  margin-right: 10px;
+}
+
+section p {
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+footer{
+  background-color: rgb(0, 3, 5);
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer h3 {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.redes-social{
+  display: flex;
+  gap: 25px;
+}
+.redes-social img{
+  height: 25px;
+}
+.redes-social a {
+  
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.criatividade{
+  color: rgb(170, 217, 232);
+  margin: 20px;
+}
+
+.comunicacao{
+  margin: 20px;
+  color: rgb(170, 217, 232);
+}
+
+.Esforco{
+  margin: 20px;
+  color: rgb(170, 217, 232);
+}
